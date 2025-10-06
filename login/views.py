@@ -2,5 +2,5 @@ from django.shortcuts import render
 
 # Create your views here.
 
-def loginPagina(request):
-    return render(request, 'startPagina.html')
+def login_pagina(request):
+    return render(request, 'loginPagina.html')
