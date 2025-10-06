@@ -2,5 +2,5 @@ from django.urls import path
 from . import views
 #url configuration
 urlpatterns = [
-path('loginPagina/', views.login_pagina),
+path('', views.loginPagina),
 ]
